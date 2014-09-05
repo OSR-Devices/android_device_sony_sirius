@@ -5,7 +5,7 @@
     "branch": "cm-11.0"
   },
     {
-    "repository": "superatmel/android_vendor_sony",
+    "repository": "superatmel/proprietary_vendor_sony",
     "target_path": "vendor/sony",
     "branch": "cm-11.0"
   },
