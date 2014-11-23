@@ -18,7 +18,7 @@
 import os
 
 TARGET_DIR = os.getenv('OUT')
-TARGET_DEVICE = os.getenv('CM_BUILD')
+TARGET_DEVICE = os.getenv('OSR_BUILD')
 
 def FullOTA_InstallEnd(self):
   self.output_zip.write(os.path.join(TARGET_DIR, "d6502.sh"), "d6502.sh")
