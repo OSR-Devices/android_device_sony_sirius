@@ -85,10 +85,14 @@ etc/firmware/modem.b26
 etc/firmware/modem.b27
 etc/firmware/modem.mdt
 
+# Modem D6502
+etc/firmware/d6502/mba.b00
+etc/firmware/d6502/modem.b01
+etc/firmware/d6502/modem.mdt
+
 # NFC
 etc/libnfc-nxp.conf
 etc/libnfc-brcm.conf
-lib/hw/nfc_nci_pn547.msm8974.so
 vendor/firmware/libpn547_fw.so
 
 # Security
@@ -110,6 +114,7 @@ lib/sysmon/sysmon_v_therm2.so
 etc/sforce/sforce_coef_music.bin
 etc/sforce/sforce_coef_video.bin
 etc/tfa98xx/btm.speaker
+etc/tfa98xx/coldboot.patch
 etc/tfa98xx/FMSpeaker_btm.eq
 etc/tfa98xx/FMSpeaker_btm.preset
 etc/tfa98xx/FMSpeaker_top.eq
@@ -127,8 +132,12 @@ etc/tfa98xx/HiFiSpeakerSforce_top.preset
 etc/tfa98xx/HiFiSpeaker_top.eq
 etc/tfa98xx/HiFiSpeaker_top.preset
 etc/tfa98xx/TFA9890_btm.config
+etc/tfa98xx/TFA9890.patch
+etc/tfa98xx/TFA9890_Receiver.config
 etc/tfa98xx/TFA9890_top.config
 etc/tfa98xx/top.speaker
+etc/tfa98xx/VoiceCallEarpice_top.eq
+etc/tfa98xx/VoiceCallEarpice_top.preset
 etc/tfa98xx/VoiceCallSpeaker_btm.eq
 etc/tfa98xx/VoiceCallSpeaker_btm.preset
 etc/tfa98xx/VoiceCallSpeaker_top.eq
@@ -187,9 +196,25 @@ etc/firmware/touch_chip_id_0x78_config_id_0x0256.bin
 etc/firmware/touch_chip_id_0x78_config_id_0x0257.bin
 etc/firmware/touch_chip_id_0x78_config_id_0x0399.bin
 etc/firmware/touch_chip_id_0x78_config_id_0x039d.bin
+etc/firmware/touch_chip_id_0x78_config_id_0x0408.bin
 etc/firmware/touch_chip_id_0x78_config_id_0x0409.bin
+etc/firmware/touch_chip_id_0x78_config_id_0x040b.bin
+etc/firmware/touch_chip_id_0x78_config_id_0x040d.bin
+etc/firmware/touch_chip_id_0x78_config_id_0x0446.bin
+etc/firmware/touch_chip_id_0x78_config_id_0x0455.bin
+etc/firmware/touch_chip_id_0x78_config_id_0x0458.bin
 etc/firmware/touch_chip_id_0x78_config_id_0x0459.bin
+etc/firmware/touch_chip_id_0x78_config_id_0x045b.bin
+etc/firmware/touch_chip_id_0x78_config_id_0x045d.bin
+etc/firmware/touch_chip_id_0x78_config_id_0x0485.bin
+etc/firmware/touch_chip_id_0x78_config_id_0x0488.bin
 etc/firmware/touch_chip_id_0x78_config_id_0x0489.bin
+etc/firmware/touch_chip_id_0x78_config_id_0x048b.bin
+etc/firmware/touch_chip_id_0x78_config_id_0x048d.bin
+etc/firmware/touch_chip_id_0x78_config_id_0x0609.bin
+etc/firmware/touch_chip_id_0x78_config_id_0x0659.bin
+etc/firmware/touch_chip_id_0x78_config_id_0x0681.bin
+etc/firmware/touch_chip_id_0x78_config_id_0x0689.bin
 usr/idc/max1187x_touchscreen_0.idc
 
 # WiFi firmware
