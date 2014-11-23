@@ -1,6 +1,6 @@
 [
   {
-    "repository": "superatmel/android_device_sony_shinano-common",
+    "repository": "OSR-Devices/android_device_sony_shinano-common",
     "target_path": "device/sony/shinano-common",
     "branch": "cm-11.0"
   },
